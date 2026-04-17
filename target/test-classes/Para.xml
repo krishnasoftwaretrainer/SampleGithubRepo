@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="ParametersSuite" parallel="tests" thread-count="3">
+
+	<test name="ChromeTest" >
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="https://www.saucedemo.com/" />
+		<parameter name="vusername" value="standard_user" />
+		<parameter name="vpassword" value="secret_sauce" />
+		<parameter name="ivusername" value="invalidusername" />
+		<parameter name="ivpassword" value="invalidpassword" />
+		<parameter name="blankusername" value="" />
+		<parameter name="blankpassword" value="" />
+	<!-- Valid Valid, Valid InValid,InValid Valid-->
+		<classes>
+			<class name="pages.Swag_Parameters" />
+		</classes>
+	</test>
+	
+	<test name="EdgeTest">
+		<parameter name="browser" value="edge" />
+		<parameter name="url" value="https://www.saucedemo.com/" />
+		<parameter name="vusername" value="standard_user" />
+		<parameter name="vpassword" value="secret_sauce" />
+		<parameter name="ivusername" value="invalidusername" />
+		<parameter name="ivpassword" value="invalidpassword" />
+		<parameter name="blankusername" value="" />
+		<parameter name="blankpassword" value="" />
+		<classes>
+			<class name="pages.Swag_Parameters" />
+			</classes>
+	</test>
+
+		<test name="FireFoxTest">
+		<parameter name="browser" value="firefox" />
+		<parameter name="url" value="https://www.saucedemo.com/" />
+		<parameter name="vusername" value="standard_user" />
+		<parameter name="vpassword" value="secret_sauce" />
+		<parameter name="ivusername" value="invalidusername" />
+		<parameter name="ivpassword" value="invalidpassword" />
+		<parameter name="blankusername" value="" />
+		<parameter name="blankpassword" value="" />
+		<classes>
+			<class name="pages.Swag_Parameters" />
+		</classes>
+	</test>
+
+	
+</suite> <!--
+ParametersSuite -->
