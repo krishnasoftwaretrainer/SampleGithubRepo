@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [GSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="methods" name="GTest(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+        <include name="Smoke"/>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="pages.TestNg_Groups">
+        <methods>
+          <include name="TitleVerification"/>
+        </methods>
+      </class> <!-- pages.TestNg_Groups -->
+    </classes>
+  </test> <!-- GTest(failed) -->
+</suite> <!-- Failed suite [GSuite] -->

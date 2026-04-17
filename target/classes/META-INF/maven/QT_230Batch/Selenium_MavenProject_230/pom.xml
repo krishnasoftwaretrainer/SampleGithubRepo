@@ -1,17 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-<<<<<<< HEAD
-  <groupId>Automation</groupId>
-  <artifactId>CucumberAutomation</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <dependencies>
-=======
   <groupId>QT_230Batch</groupId>
   <artifactId>Selenium_MavenProject_230</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
   
->>>>>>> d2cd2db5f7f3d82b0cdb0c9fa0b504578071e016
   <!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
@@ -19,51 +12,14 @@
     <version>4.41.0</version>
     <scope>compile</scope>
 </dependency>
-<<<<<<< HEAD
-<!-- Source: https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
-<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-java</artifactId>
-    <version>7.34.3</version>
-    <scope>compile</scope>
-</dependency>
-
-<!-- Source: https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
-<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-junit</artifactId>
-    <version>7.34.3</version>
-    <scope>test</scope>
-</dependency>
-
-<!-- Source: https://mvnrepository.com/artifact/junit/junit -->
-<dependency>
-    <groupId>junit</groupId>
-    <artifactId>junit</artifactId>
-    <version>4.13.2</version>
-    <scope>test</scope>
-</dependency> 
-  <!-- Source: https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
-<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-testng</artifactId>
-    <version>7.34.3</version>
-    <scope>compile</scope>
-</dependency>
-<!-- Source: https://mvnrepository.com/artifact/org.testng/testng -->
-=======
   
   <!-- Source: https://mvnrepository.com/artifact/org.testng/testng -->
->>>>>>> d2cd2db5f7f3d82b0cdb0c9fa0b504578071e016
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.12.0</version>
     <scope>test</scope>
 </dependency>
-<<<<<<< HEAD
-  </dependencies>
-=======
     
     <!-- Source: https://mvnrepository.com/artifact/org.apache.poi/poi -->
 <dependency>
@@ -90,5 +46,4 @@
 </dependency>
   </dependencies>
     
->>>>>>> d2cd2db5f7f3d82b0cdb0c9fa0b504578071e016
 </project>

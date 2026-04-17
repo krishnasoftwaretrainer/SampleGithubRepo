@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>CucumberAutomation</name>
+=======
+	<name>Selenium_MavenProject_230</name>
+>>>>>>> d2cd2db5f7f3d82b0cdb0c9fa0b504578071e016
 	<comment></comment>
 	<projects>
 	</projects>
